@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="405dp"
+        android:layout_height="40dp"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        tools:context=".PrimeiroAcesso">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="405dp"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            tools:context=".PrimeiroAcesso">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:text="Nome"/>
+
+            <EditText
+                android:id="@+id/edit_TextName"
+                android:layout_width="310dp"
+                android:layout_height="50dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="405dp"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            tools:context=".PrimeiroAcesso">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:text="Telefone"/>
+
+            <EditText
+                android:id="@+id/edit_TextTelefone"
+                android:layout_width="310dp"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="405dp"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            tools:context=".PrimeiroAcesso">
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="40dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:text="Matrícula"/>
+
+            <EditText
+                android:id="@+id/edit_TextMatricula"
+                android:layout_width="310dp"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="405dp"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            tools:context=".PrimeiroAcesso">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:text="OAB"/>
+
+            <EditText
+                android:id="@+id/edit_Textoab"
+                android:layout_width="310dp"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="405dp"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            tools:context=".PrimeiroAcesso">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:text="RG"/>
+
+            <EditText
+                android:id="@+id/edit_Textrg"
+                android:layout_width="310dp"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="405dp"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            tools:context=".PrimeiroAcesso">
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="40dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:text="Endereço"/>
+
+            <EditText
+                android:id="@+id/edit_TextEndereco"
+                android:layout_width="310dp"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="405dp"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            tools:context=".PrimeiroAcesso">
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="40dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:text="CEP"/>
+
+            <EditText
+                android:id="@+id/edit_Textcep"
+                android:layout_width="310dp"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="405dp"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            tools:context=".PrimeiroAcesso">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:text="Cidade"/>
+
+            <EditText
+                android:id="@+id/edit_TextCidade"
+                android:layout_width="310dp"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="405dp"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            tools:context=".PrimeiroAcesso">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:text="Estado"/>
+
+            <EditText
+                android:id="@+id/edit_TextEstado"
+                android:layout_width="310dp"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="405dp"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            tools:context=".PrimeiroAcesso">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:text="Email"/>
+
+            <EditText
+                android:id="@+id/edit_TextEmail"
+                android:layout_width="310dp"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="405dp"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            tools:context=".PrimeiroAcesso">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:text="Senha"/>
+
+            <EditText
+                android:id="@+id/edit_TextSenha"
+                android:layout_width="310dp"
+                android:layout_height="50dp"
+                android:inputType="textPassword"/>
+
+            <ListView
+                android:id="@+id/listNomeTelefoneMatriculaOabrgEnderecocepCidadeEstadoEmail"
+                android:layout_width="match_parent"
+                android:layout_height="600dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            tools:context=".PrimeiroAcesso">
+
+            <Button
+                android:id="@+id/btCadastrar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:text="Cadastrar"/>
+
+            <Button
+                android:id="@+id/btVoltar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:text="Cancelar"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

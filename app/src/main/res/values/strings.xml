@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">InfanciaemAlertaApp</string>
+    <string name="fem">Fem</string>
+    <string name="masc">Masc</string>
+    <string name="none">1</string>
+
+</resources>

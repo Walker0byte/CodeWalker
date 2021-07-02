@@ -1,0 +1,251 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        tools:context= ".DenuncieAqui">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            tools:context= ".DenuncieAqui">
+
+            <TextView
+
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:text="Nome Menor"
+                android:textSize="20dp" />
+
+
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_TextMenor"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="358dp"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            tools:context=".DenuncieAqui">
+
+            <TextView
+
+                android:text="Idade"
+                android:textSize="20dp"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/edit_TextIdade"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"/>
+
+        </LinearLayout>
+
+            <LinearLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                tools:context=".DenuncieAqui">
+
+
+            <TextView
+                android:id="@+id/TextSexo"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:text="Sexo: "
+                android:textSize="20dp"/>
+
+                <RadioGroup
+                    android:id="@+id/radioGroupFemorMasc"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="20dp"
+                    >
+            <RadioButton
+                android:id="@+id/radioButtonFem"
+                android:layout_width="87dp"
+                android:layout_height="45dp"
+                android:text="Fem" />
+
+            <RadioButton
+                android:id="@+id/radioButtonMasc"
+                android:layout_width="87dp"
+                android:layout_height="45dp"
+                android:text="Masc" />
+
+                </RadioGroup>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            tools:context= ".DenuncieAqui">
+
+            <TextView
+
+                android:text="Nome da Mãe"
+                android:textSize="20dp"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_TextMae"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            tools:context= ".DenuncieAqui">
+
+            <TextView
+
+                android:text="Nome do Pai"
+                android:textSize="20dp"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_TextPai"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            tools:context= ".DenuncieAqui">
+
+            <TextView
+
+                android:text="Escola"
+                android:textSize="20dp"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_TextEscola"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            tools:context= ".DenuncieAqui">
+
+            <TextView
+                android:text="Endereço"
+                android:textSize="20dp"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/edit_TextEnderecoM"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            tools:context= ".DenuncieAqui">
+
+            <TextView
+
+                android:text="Cidade"
+                android:textSize="20dp"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_TextCidadeM"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            tools:context= ".DenuncieAqui">
+            <TextView
+
+                android:text="Estado"
+                android:textSize="20dp"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_TextEstadoM"/>
+
+            <ListView
+                android:id="@+id/listMenorIdadeSexoMaePaiEscolaEnderecoMEstadoMCidadeM"
+                android:layout_width="match_parent"
+                android:layout_height="600dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            tools:context=".DenuncieAqui">
+
+            <Button
+                android:id="@+id/btProximo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Próximo"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/btDesistir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Cancelar"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

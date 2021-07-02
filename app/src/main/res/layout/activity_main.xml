@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="331dp"
+        android:layout_height="714dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal"
+        android:text="Bem vindo ao sistema de denúncia  contra o menor"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:layout_width="269dp"
+        android:layout_height="500px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/infancia" />
+
+    <Button
+        android:id="@+id/btDenuncie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80pt"
+        android:text="Denuncie Aqui"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btAcessar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="115dp"
+        android:text="Administrador MP"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+
+</FrameLayout>

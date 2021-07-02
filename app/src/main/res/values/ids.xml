@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="edit_TextMenor" type="id" />
+    <item name="edit_TextMae" type="id" />
+    <item name="edit_TextPai" type="id" />
+    <item name="edit_TextEndereco" type="id" />
+    <item name="edit_TextIdade" type="id" />
+    <item name="edit_TextSexo" type="id" />
+    <item name="edit_TextEstado" type="id" />
+    <item name="edit_TextCidade" type="id" />
+    <item name="edit_TextEscola" type="id" />
+    <item name="listMenorMaeEnderecoCidadeEscola" type="id" />
+    <item name="edit_TextNome" type="id" />
+    <item name="edit_TextOab" type="id" />
+    <item name="edit_TextMatricula" type="id" />
+    <item name="edit_TextTelefone" type="id" />
+    <item name="listNomeEnderecoCidadeEmailTelefoneSenhaOabMatriculaEstado" type="id" />
+    <item name="listNomeEnderecoCidadeEmailTelefoneSenha" type="id" />
+</resources>
